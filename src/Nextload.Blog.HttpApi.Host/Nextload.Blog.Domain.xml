@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Nextload.Blog.Domain</name>
+    </assembly>
+    <members>
+        <member name="F:Nextload.Blog.AppSettings._config">
+            <summary>
+            配置文件的根节点
+            </summary>
+        </member>
+        <member name="M:Nextload.Blog.AppSettings.#cctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:Nextload.Blog.AppSettings.EnableDb">
+            <summary>
+            EnableDb
+            </summary>
+        </member>
+        <member name="P:Nextload.Blog.AppSettings.ConnectionStrings">
+            <summary>
+            ConnectionStrings
+            </summary>
+        </member>
+        <member name="M:Nextload.Blog.IRepositories.IPostTagRepository.BulkInsertAsync(System.Collections.Generic.IEnumerable{Nextload.Blog.PostTag})">
+            <summary>
+            批量插入
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nextload.Blog.IRepositories.ITagRepository.BulkInsertAsync(System.Collections.Generic.IEnumerable{Nextload.Blog.Tag})">
+            <summary>
+            批量插入
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Nextload.Blog.Category.CategoryName">
+            <summary>
+            分类名称
+            </summary>
+        </member>
+        <member name="P:Nextload.Blog.Category.DisplayName">
+            <summary>
+            展示名称
+            </summary>
+        </member>
+        <member name="P:Nextload.Blog.FriendLink.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Nextload.Blog.FriendLink.LinkUrl">
+            <summary>
+            链接
+            </summary>
+        </member>
+        <member name="P:Nextload.Blog.Post.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Nextload.Blog.Post.Author">
+            <summary>
+            作者
+            </summary>
+        </member>
+        <member name="P:Nextload.Blog.Post.Url">
+            <summary>
+            链接
+            </summary>
+        </member>
+        <member name="P:Nextload.Blog.Post.Html">
+            <summary>
+            HTML
+            </summary>
+        </member>
+        <member name="P:Nextload.Blog.Post.Markdown">
+            <summary>
+            Markdown
+            </summary>
+        </member>
+        <member name="P:Nextload.Blog.Post.CategoryId">
+            <summary>
+            分类Id
+            </summary>
+        </member>
+        <member name="P:Nextload.Blog.Post.CreationTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Nextload.Blog.PostTag.PostId">
+            <summary>
+            文章Id
+            </summary>
+        </member>
+        <member name="P:Nextload.Blog.PostTag.TagId">
+            <summary>
+            标签Id
+            </summary>
+        </member>
+        <member name="P:Nextload.Blog.Tag.TagName">
+            <summary>
+            标签名称
+            </summary>
+        </member>
+        <member name="P:Nextload.Blog.Tag.DisplayName">
+            <summary>
+            展示名称
+            </summary>
+        </member>
+    </members>
+</doc>
